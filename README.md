@@ -1,6 +1,6 @@
 # Algorithm Design Class Mini Project
 
-This project is a mini project for an **Algorithm Design** class, created using [Vite](https://vitejs.dev/) with **React**, **TypeScript**, and **Material-UI (MUI)**. It demonstrates the implementation of a **Merge Sort algorithm** to sort a list of players by their scores.
+This project is a mini project for my **Algorithm Design** class, created using [Vite](https://vitejs.dev/) with **React**, **TypeScript**, and **Material-UI (MUI)**. It demonstrates the implementation of a **Merge Sort algorithm** to sort a list of players by their scores.
 
 ---
 
@@ -32,11 +32,11 @@ This project is a mini project for an **Algorithm Design** class, created using 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ruhollah82/code-warz
    ```
 2. Navigate to the project directory:
    ```bash
-   cd algorithm-design-mini-project
+   cd code-warz
    ```
 3. Install dependencies:
    ```bash
