@@ -1,50 +1,86 @@
-# React + TypeScript + Vite
+# Algorithm Design Class Mini Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a mini project for an **Algorithm Design** class, created using [Vite](https://vitejs.dev/) with **React**, **TypeScript**, and **Material-UI (MUI)**. It demonstrates the implementation of a **Merge Sort algorithm** to sort a list of players by their scores.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Add Players**: Input player names and scores.
+- **Merge Sort Implementation**: Sort the list of players based on their scores using a custom implementation of Merge Sort.
+- **Dynamic UI**: The user interface is built using Material-UI with a modern, glassy design.
+- **Responsive Design**: Optimized for desktop and mobile screens.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Project Structure
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **`App.tsx`**: The main React component containing the player input form, sortable player table, and overall layout.
+- **`utils/MergSort.ts`**: A utility function implementing the Merge Sort algorithm.
+- **`components/theme.ts`**: Custom Material-UI theme configurations.
+- **`types/player.ts`**: Type definitions for the Player object.
+
+---
+
+## How to Run
+
+### Prerequisites
+
+- Node.js and npm installed on your system.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd algorithm-design-mini-project
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Start the Development Server
+
+```bash
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+The application will be accessible at [http://localhost:3000](http://localhost:3000).
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Usage
+
+1. Open the application in your browser.
+2. Enter the player's name and score in the input fields.
+3. Click **Add Player** to add the player to the list.
+4. Click **Sort by Score** to sort the players by their scores using Merge Sort.
+
+---
+
+## Technologies Used
+
+- **React**: For building the user interface.
+- **TypeScript**: For type safety and better developer experience.
+- **Material-UI (MUI)**: For UI components and styling.
+- **Vite**: For fast development build.
+
+---
+
+## Screenshots
+
+### Main Interface
+
+![Main Interface](screenshot-main-interface.png)
+
+---
+
+## Contribution
+
+Feel free to fork this repository and submit pull requests. Contributions are welcome!
+
+---
