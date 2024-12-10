@@ -75,7 +75,7 @@ The application will be accessible at [http://localhost:3000](http://localhost:3
 
 ### Main Interface
 
-![Main Interface](screenshot-main-interface.png)
+![Main Interface](https://github.com/ruhollah82/code-warz/blob/main/src/assets/interface.png)
 
 ---
 
